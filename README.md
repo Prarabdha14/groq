@@ -57,7 +57,7 @@ After running, the script prints:
 - Sample JOIN query results (3-table and 4-table joins)
 - API usage statistics (requests, tokens, elapsed time)
 
-```sql
+```sqlz
 -- Manual verification
 SELECT a.name, s.common_name, h.name AS habitat
 FROM animals a
@@ -72,3 +72,11 @@ LIMIT 10;
 |----------|-------------|---------|
 | `GROQ_API_KEY` | Your Groq API key | — (required) |
 | `DATABASE_URL` | PostgreSQL connection string | `postgresql://postgres:postgres@localhost:5432/animal_kingdom` |
+
+
+"Bengal Tiger belongs to which habitat?"
+"What does the Bald Eagle eat?"
+"How many Blue Whales are there?"
+"Which habitat does the Snow Leopard live in?"
+"Show me all observations of the King Cobra"
+
